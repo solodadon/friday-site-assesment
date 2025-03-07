@@ -93,3 +93,10 @@ footer {
   margin-top: 20px;
 }
 
+.navbar {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

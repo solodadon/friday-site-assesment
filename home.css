@@ -1,0 +1,15 @@
+/* ======= Global Styles ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 70px; /* Adjusted for fixed navbar */
+}
