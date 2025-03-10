@@ -100,3 +100,43 @@ footer {
   justify-content: center;
   padding: 10px;
 }
+
+/* Reset default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Navbar styling */
+nav {
+  background: #333; /* Dark background */
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Links container */
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between links */
+}
+
+/* Individual links */
+.links li {
+  display: inline;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: #555;
+  border-radius: 5px;
+}
